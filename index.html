@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="paint.css">
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <div id="shapes">
+                <div  class="all"><p>Brush</p><img id="brush" class="icon" src="https://www.vhv.rs/dpng/d/509-5099818_paint-brush-png-icon-free-download-onlinewebfonts-art.png" alt=""></div>
+                <div  class="all"><p>Line</p><img id="line" class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX///8AAABZWVlWVlZJSUlUVFRRUVFNTU3IyMi/v79hYWFxcXHDw8NkZGR9yKVKAAAB9UlEQVR4nO3cC27DMAwEUduy43zvf92iTdHoAqqww3knIGHZWoJBlkWSJEmSJEmSJOk/XFvbbrOLGOm+fnvMLmOcfX17zi5klOO3wbXNrmSQbYV3+PcEqR2enwaZ7+HWNfiaXcwIfYP77GJGuHQNHrOLGaFvcJtdzAgb/Qm2rsFzdjEj7PQj2ugN9u/gZXYxI1zoDZ6VjigybeOj2kl/gt08yH8HkV9Ro1q6UlENeUSd6NPho1r/kTGqJTKqpTvoDZaKasiPjFEtXamohnyC+KjWXxPIr2ipiR6ZZPBRzeVLOpcv6Yxq6Vy+pCsV1ZBH1N/JpDOqpcNHNZcv6Yxq6Yxq6Vy+pMNHNZcv6UpdE8io5vIlHf6acKJPVyqqIcO2E326UlENeURdvqQzqqXDRzWXL+mMaumMaulcvqTDRzWXL+lKXRPIqObyJR3+mnCiT1cqqiHDthN9ulJRDXlEXb6kM6qlw0c1ly/pjGrpjGrpXL6kw0c1ly/pjGrpXL6kK/UPschrwqiWzuVLOnxUKzXRI5OMUS0dfqLHRzX88sWolq5UVEMe0VJRDXlE8b+TKXVNIC96o1o6ly/p8BM9Pqq96A0+6VGtT9vIebDvEHlEl65D6BP8vIfIqPb2+GnwPruMkW5ba9fZRUiSJEmSJEmSpCK+ABEDDMg3Up6RAAAAAElFTkSuQmCC" alt=""></div>
+                <div  class="all"><p>Square</p><img id="rectangle" class="icon" src="https://st3.depositphotos.com/16262510/33731/v/950/depositphotos_337318378-stock-illustration-rectangle-icon-vector-isolated-on.jpg" alt=""></div>
+                <div  class="all"><p>Circle</p><img id="circle" class="icon" src="https://toppng.com/uploads/preview/circle-svg-png-icon-free-download-black-circle-outline-11562852140hvhsqt91pa.png" alt=""></div>
+                <div  class="all"><p>Polygon</p><img id="pentagon" class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBCxB-KOIGI7bwIvGZv0j5VgRRAZRS1hXDw&usqp=CAU" alt=""></div>
+                <!-- <div id="polygon" class="all"><p>Polygon</p><img class="icon" src=" alt=""></div> -->
+            </div>
+        </header>
+        <canvas id="canvas"></canvas>
+    </div>
+    <button id="btn">Reset</button>
+    <span id="fillcolor"><span class="col">FILL - COLOR</span><input type="color" id="fcolor" class="color"></span>
+    <span id="strokecolor"><span class="col">STROKE - COLOR</span><input type="color" id="scolor" class="color"></span>
+    <footer>
+        <div id="foot">
+            Copyright &copy; www.paint@pravedkasaudhan.com.!!! All rights reserved !!!
+        </div>
+    </footer>
+    <script src="paint.js"></script>
+</body>
+</html>
